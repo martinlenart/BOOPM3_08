@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BOOPM3_08_02
+namespace BOOPM3_08_03
 {
     public class Rectangle
     {
