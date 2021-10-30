@@ -25,11 +25,11 @@ namespace BOOPM3_08_02b
         {
             if (bird.ICanFly)
             {
-                Console.WriteLine($"Hello, I am a {bird.GetType()}. Hurray! I can fly!");
+                Console.WriteLine($"Hello, I am a {bird.GetType().Name}. Hurray! I can fly!");
             }
             else
             {
-                Console.WriteLine($"Hello, I am a {bird.GetType()}. Sadly, I cannot fly!");
+                Console.WriteLine($"Hello, I am a {bird.GetType().Name}. Sadly, I cannot fly!");
             }
         }
     }
