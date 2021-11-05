@@ -37,8 +37,8 @@ namespace BOOPM3_08_01
 
                 do
                 {
-                    while (array[lowerIdx].CompareTo(array[pivotIdx]) < 0) { lowerIdx++; }
                     while (array[upperIdx].CompareTo(array[pivotIdx]) > 0) { upperIdx--; }
+                    while (array[lowerIdx].CompareTo(array[pivotIdx]) < 0) { lowerIdx++; }
 
                     if (lowerIdx >= upperIdx)
                         break;
